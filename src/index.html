@@ -171,12 +171,12 @@
     </section><!--/#main-slider-->
 
 
-    <div id="wrap">
-        <div class="layer fa fa-bullhorn" data-depth="0.5"></div>
-        <div class="layer fa fa-bell" data-depth="1.0"></div>
-        <div class="layer fa fa-certificate" data-depth="1.5"></div>
-        <div class="layer fa fa-hand-o-right" data-depth="2.0"></div>
-        <div class="layer fa fa-hand-o-left" data-depth="3.0"></div>
+    <div id="wrap" style="margin: 0 auto; width: 300px; height: 300px;">
+        <div class="layer fa fa-bullhorn" data-depth="1.0"></div>
+        <div class="layer fa fa-bell" data-depth="3.0"></div>
+        <div class="layer fa fa-certificate" data-depth="5.0"></div>
+        <div class="layer fa fa-hand-o-right" data-depth="7.0"></div>
+        <div class="layer fa fa-hand-o-left" data-depth="9.0"></div>
     </div>
 
 
@@ -188,14 +188,14 @@
             </div>
 
             <div class="row">
-                <div id="parallax-wrap1"
+                <div id="parallax-wrap"
                      data-friction-x="0.1"
                      data-friction-y="0.1"
                      data-scalar-x="10"
                      data-scalar-y="10"
                      class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInDown layer" data-depth="0.5" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
+                    <div class="col-md-4 col-sm-6 wow fadeInDown layer" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap" data-depth="0.5" >
                             <i class="fa fa-bullhorn"></i>
                             <h2>Fresh and Clean</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
@@ -797,7 +797,6 @@
     <script src="js/wow.min.js"></script>
 
     <script src="js/parallax.min.js"></script>
-
     <script>
         var layer = document.getElementById('wrap');
         var parallax = new Parallax(layer, {
@@ -809,5 +808,11 @@
             originY: 0.8 //マウス入力の縦軸初期値,デフォルト0.5
         });
     </script>
+
+    <script src="js/jquery.parallax.min.js"></script>
+    <script>
+        $('#parallax-wrap').parallax();
+    </script>
+
 </body>
 </html>
