@@ -1,0 +1,31 @@
+.arrow_box {
+  position: relative;
+  background: #fff;
+  width: 25%;
+<<<<<<< HEAD
+  height: 500px;
+  border-radius: 10px;
+  float: left;
+  top: 35px;
+  bottom: 35px;
+=======
+  height: 300px;
+  border-radius: 10px;
+  float: left;
+>>>>>>> 09e073085815832a50892c94a0e8cd0a1e5986e4
+}
+.arrow_box:after {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #fff;
+  border-width: 30px;
+  margin-left: -30px;
+}
+
