@@ -79,13 +79,13 @@
                             data-scalar-x="50"
                             data-scalar-y="50000">
                             <!-- 下に書くほど上のレイヤーになります-->
-                            <li class="layer" data-depth="0.10"><div class="pepper"><img src="images/ori/pepper-novice.png"></div></li>
-                            <li class="layer" data-depth="0.10"><div class="iqkun"><img src="images/ori/iqchara.png"></div></li>
+                            <li class="layer" data-depth="0.10"><div class="pepper"><img src="images/ori/pepper-novice.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.10"><div class="iqkun"><img src="images/ori/iqchara.png" class="img-responsive"></div></li>
                             <li class="layer" data-depth="0.05"><h1 class="title">Infordio<br>一緒に働こうネ！！！</h1></li>
-                            <li class="layer" data-depth="0.20"><div class="man1"><img src="images/ori/woman_01.png"></div></li>
-                            <li class="layer" data-depth="0.20"><div class="man2"><img src="images/ori/woman_021.png"></div></li>
-                            <li class="layer" data-depth="0.20"><div class="man3"><img src="images/ori/man_061.png"></div></li>
-                            <li class="layer" data-depth="0.20"><div class="man4"><img src="images/ori/man_14.png"></div></li>
+                            <li class="layer" data-depth="0.20"><div class="man1"><img src="images/ori/woman_01.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.20"><div class="man2"><img src="images/ori/woman_021.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.20"><div class="man3"><img src="images/ori/man_061.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.20"><div class="man4"><img src="images/ori/man_14.png" class="img-responsive"></div></li>
                         </ul>
                     </div>
 
@@ -139,27 +139,158 @@
         </div>
 
         <div class="row">
-            <input type="radio" name="switch" id="tab-1" checked>
-            <input type="radio" name="switch" id="tab-2">
-            <a data-target="#fukushiModal" data-toggle="modal"><input type="radio" name="switch"></a>
-            <a href="#fukazawaModal" data-toggle="modal"><input type="radio" name="switch"></a>
-            <ul class="tabBtn none">
-                <li class="tab"><label for="tab-1">タブ</label></li>
-                <li class="tab"><label for="tab-2">タブ</label></li>
-                <!--<li class="tab"><label for="tab-3">タブ</label></li>-->
-                <!--<li class="tab"><label for="tab-4">タブ</label></li>-->
-            </ul>
+            <div class="col-sm-3 profile-area">
+                <a data-target="#takaModal" data-toggle="modal">
+                    <section class="card">
+                        <img class="card-img" src="images/ori/gaki.jpg">
+                        <div class="card-content">
+                            <h1 class="card-title">高澤 亮丞</h1>
+                            <p class="card-text">2015年度新卒<br>
+                                期待のホープ</p>
+                        </div>
+                        <div class="card-link">
+                            >>もっと見る！！
+                        </div>
+                    </section>
+                </a>
+            </div>
 
-            <div class="modal" id="fukushiModal" tabindex="-1">
+            <div class="col-sm-3 profile-area">
+                <a data-target="#sekiModal" data-toggle="modal">
+                    <section class="card">
+                        <img class="card-img" src="images/ori/ari_1.jpg">
+                        <div class="card-content">
+                            <h1 class="card-title">関口くん</h1>
+                            <p class="card-text">2015年度新卒<br>
+                                うえ～い</p>
+                        </div>
+                        <div class="card-link">
+                            >>もっと見る！！
+                        </div>
+                    </section>
+                </a>
+            </div>
+
+            <div class="col-sm-3 profile-area">
+                <a data-target="#fukuModal" data-toggle="modal">
+                    <section class="card">
+                        <img class="card-img" src="images/ori/ishi_1.jpg">
+                        <div class="card-content">
+                            <h1 class="card-title">ふくし氏</h1>
+                            <p class="card-text">2015年度新卒<br>
+                            ひゃっはー
+                        </div>
+                        <div class="card-link">
+                            >>もっと見る！！
+                        </div>
+                    </section>
+                </a>
+            </div>
+
+            <div class="col-sm-3 profile-area">
+                <a href="#fukaModal" data-toggle="modal">
+                    <section class="card">
+                        <img class="card-img" src="images/ori/yama_1.jpg">
+                        <div class="card-content">
+                            <h1 class="card-title">ふかざーくん</h1>
+                            <p class="card-text">2015年度新卒<br>
+                                きらーん
+                        </div>
+                        <div class="card-link">
+                            >>もっと見る！！
+                        </div>
+                    </section>
+                </a>
+            </div>
+
+            <div class="modal" id="takaModal" tabindex="-1">
                 <div class="modal-lg">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                            <h3>タイトル</h3>
-                        </div>
                         <div class="modal-body">
-                            <img src="images/ori/gaki_2.jpg" height="100" width="120">
-                            ガッキーだよ！
+                            <img src="images/ori/gaki_2.jpg" class="modal-img">
+                            高澤 亮丞<br>
+                            2015年度新卒<br>
+                            東京大学卒
+                            <p>
+                            ◇入社後の流れ<br>
+                            ・4,5月<br>
+                            外部研修でJavaを中心にプログラミングの基礎を学ぶ<br>
+                            JavaプログラマBronze,JavaプログラマSilver 取得<br>
+                            ・6月<br>
+                            社内研修でWebアプリケーションの開発<br>
+                            全体会議でプレゼンテーション<br>
+                            ・7~9月<br>
+                            Swiftを学習しiOSアプリの開発<br>
+                            先輩社員とともに社内外の勉強会に積極的に参加<br>
+                            ・10~3月<br>
+                            　Androidアプリの開発・保守<br>
+                            基本情報技術者、JavaプログラマGold 取得<br>
+                            ・4月~<br>
+                            Webアプリケーション開発<br>
+                            HTML5/JavaScript<br>
+
+                            <p>
+                            ◇インフォディオの魅力<br>
+                            1.責任ある仕事<br>
+                            社員一人一人が自分の仕事に誇りを持ち、
+                            よりよい製品を作り上げるために日々取り組んでいます。<br>
+                            そんなプロ意識を持ったエンジニア集団の一員となれます。<br>
+
+                            2.スキルアップサポート<br>
+                            新卒研修から始まり、勉強会や資格取得報奨金制度等の
+                            様々なスキルアップサポート制度があり、
+                            未経験であった私も技術をどんどん習得しています。<br>
+                            また、最近はお客様とのやり取りも任せてもらえ、
+                            エンジニア技術に加え、ビジネスマンとしてのスキルアップにも挑戦中です。<br>
+
+                            <p>
+                            革新的なサービスの創造のため各個人が自己研鑽を怠りません。<br>
+                            やる気とビジョンさえあれば成長できる環境は整っているので、
+                            ぜひ一緒に働きましょう！！
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">閉じる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="sekiModal" tabindex="-1">
+                <div class="modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="images/ori/ari_2.jpg" class="modal-img">
+                            <div class="modal-text">
+                            かすみだよ！
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                                </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">閉じる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="fukuModal" tabindex="-1">
+                <div class="modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="images/ori/ishi_2.jpeg" class="modal-img">
+                            <p>さとみだよ！</p>
                             <p>私も働いてるよ♡</p>
                             <p>私も働いてるよ♡</p>
                             <p>私も働いてるよ♡</p>
@@ -182,28 +313,36 @@
                 </div>
             </div>
 
-            <div id="fukazawaModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="myModalLabel">モーダルボックス</h3>
+            <div id="fukaModal" class="modal" tabindex="-1">
+                <div class="modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="images/ori/yama_2.jpg" class="modal-img">
+                            山Pだよ！
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                            <p>私も働いてるよ♡</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">閉じる</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <p>モーダルボックスの中身です。</p>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn" data-dismiss="modal" aria-hidden="true">閉じる</button>
-                    <button class="btn btn-primary">完了</button>
-                </div>
-            </div>
-
-            <div id="wrapper" class="tabContents">
-                <section class="arrow_box">takazawa</section>
-                <section class="arrow_box">sekiguchi</section>
-                <section class="arrow_box">fukushi</section>
-                <section class="arrow_box">fukazawa</section>
             </div>
         </div>
-        <!--/.row-->
+    </div>
+    <!--/.row-->
     </div>
     <!--/.container-->
 </section>
@@ -310,7 +449,9 @@
                 <tr class="table-border">
                     <th>応募資格</th>
                     <td>
-                        2015年3月卒業、2016年3月に高校、専門学校、高等専門学校、短大、4年制大学および大学院を卒業（修了）見込みの方<br> ※既卒の方も新卒採用への応募は可能です。
+                            2015年3月卒業、2016年3月に高校、専門学校、高等専門学校
+                            <br>短大、4年制大学および大学院を卒業（修了）見込みの方
+                            <br> ※既卒の方も新卒採用への応募は可能です。
                         <br> 以下のいずれかの技術スキルのある方を歓迎いたします。
                         <br> ・&nbsp;数学が好きな方
                         <br> ・&nbsp;論理的な考えが得意な方
@@ -350,7 +491,7 @@
                 <tr class="table-border">
                     <th>給与</th>
                     <td>初任給例<br> &nbsp;&nbsp;&nbsp;&nbsp;高卒／月給&nbsp;221,940円
-                        <br> &nbsp;&nbsp;&nbsp;&nbsp;大卒／月給&nbsp;234,250円
+                            <br> &nbsp;&nbsp;&nbsp;&nbsp;大卒／月給&nbsp;250,000円
                         <br> &nbsp;&nbsp;&nbsp;(3ヶ月間の試用期間があります。)
                     </td>
                 </tr>
@@ -401,14 +542,15 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                &copy; 2016 <a target="_blank" href="http://www.infordio.co.jp/index.html" title="infordio">株式会社インフォディオ</a>
+                    &copy; 2016 <a target="_blank" href="http://www.infordio.co.jp/index.html" title="infordio">
+                    Copyright © 2008-2016 INFORDIO CO.,LTD. 株式会社インフォディオ</a>
             </div>
             <div class="col-sm-6">
                 <ul class="pull-right">
-                    <li><a href="#">あああああ</a></li>
-                    <li><a href="#">いいいいい</a></li>
-                    <li><a href="#">えええええ</a></li>
-                    <li><a href="#">おおおおお</a></li>
+                        <li><a href="#feature">社長メッセージ</a></li>
+                        <li><a href="#services">若手紹介</a></li>
+                        <li><a href="#recent-works">社内風景</a></li>
+                        <li><a href="#partner">募集要項</a></li>
                 </ul>
             </div>
         </div>
