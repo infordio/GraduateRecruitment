@@ -58,7 +58,7 @@ input[type="radio"]:checked:before {
     display: inline-block;
     width: 100px;
     height: 100px;
-    background: url("../images/granfa.jpg");
+    background: url("../images/ori/gaki.jpg");
     background-size: 100px 100px;
 }
 
