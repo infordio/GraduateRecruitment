@@ -2602,6 +2602,7 @@ shortcodes page css
   width: 100%;
 }
 
+<<<<<<< HEAD
 .button {
 	display: inline-block;
 	width: 200px;
@@ -2654,4 +2655,14 @@ shortcodes page css
 	background: #333;
 	-webkit-transform: scale(1);
 	transform: scale(1);
+=======
+
+/****************************************************************************
+  レスポンシブ対応
+*****************************************************************************/
+@media (max-width: 1000px) {
+  .center {
+    padding-bottom: 15px;
+  }
+>>>>>>> ad16310ed9ee4e7b9690668cfb76b299e2e57150
 }
