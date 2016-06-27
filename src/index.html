@@ -13,6 +13,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/slide.css" rel="stylesheet">
+    <link href="css/arrowbox.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/table.css" rel="stylesheet">
@@ -35,7 +36,7 @@
 
 <header id="header">
 
-    <nav class="navbar navbar-inverse" role="banner">
+    <nav class="navbar navbar-fixed-top" role="banner">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -49,7 +50,7 @@
 
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a href="index.html">トップ</a></li>
                     <li><a href="#feature">社長メッセージ</a></li>
                     <li><a href="#services">若手紹介</a></li>
                     <li><a href="#recent-works">社内風景</a></li>
@@ -68,24 +69,32 @@
     <div class="carousel slide">
         <div class="carousel-inner">
 
-            <div class="item active" style="background-image: url(images/ori/accessToWebtop.png)">
+            <div class="item active topimg" style="background-image: url(images/ori/accessToWebtop.png);height:1000px;">
                 <div class="container">
 
                     <!-- 左側 -->
                     <div class="col-sm-12">
                         <ul id="scene"
                             data-friction-x="0.1"
-                            data-friction-y="0.1"
+                            data-friction-y="0.02"
                             data-scalar-x="50"
                             data-scalar-y="50000">
                             <!-- 下に書くほど上のレイヤーになります-->
-                            <li class="layer" data-depth="0.10"><div class="pepper"><img src="images/ori/pepper-novice.png" class="img-responsive"></div></li>
-                            <li class="layer" data-depth="0.10"><div class="iqkun"><img src="images/ori/iqchara.png" class="img-responsive"></div></li>
-                            <li class="layer" data-depth="0.05"><h1 class="title">Infordio<br>一緒に働こうネ！！！</h1></li>
-                            <li class="layer" data-depth="0.20"><div class="man1"><img src="images/ori/woman_01.png" class="img-responsive"></div></li>
-                            <li class="layer" data-depth="0.20"><div class="man2"><img src="images/ori/woman_021.png" class="img-responsive"></div></li>
-                            <li class="layer" data-depth="0.20"><div class="man3"><img src="images/ori/man_061.png" class="img-responsive"></div></li>
-                            <li class="layer" data-depth="0.20"><div class="man4"><img src="images/ori/man_14.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.05"><div class="sun"><img src="images/ori/sun.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.90"><div class="kondol"><img src="images/ori/kondol.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.90"><div class="kyo"><img src="images/ori/kyo.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.08"><div class="rock3"><img src="images/ori/rock03.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.03"><div class="rock"><img src="images/ori/rock01.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.08"><div class="rock4"><img src="images/ori/rock04.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.03"><div class="rock2"><img src="images/ori/rock02.png" class="img-responsive"></div></li>
+
+                            <li class="layer" data-depth="0.15"><div class="jimen"><img src="images/ori/jimen.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.10"><div class="title"><img src="images/ori/title.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.15"><div class="man1"><img src="images/ori/fuku.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.15"><div class="man2"><img src="images/ori/taka.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.15"><div class="man3"><img src="images/ori/seki.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.15"><div class="man4"><img src="images/ori/fuka.png" class="img-responsive"></div></li>
+                            <li class="layer" data-depth="0.15"><div class="pepper"><img src="images/ori/pepper-novice.png" class="img-responsive"></div></li>
                         </ul>
                     </div>
 
@@ -100,34 +109,45 @@
 </section>
 <!--/#main-slider-->
 
-    <section id="feature">
-        <div class="container">
-            <div class="center wow fadeInDown">
-                <h2 id="president">社長メッセージ</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore
-                    magna aliqua. Ut enim ad minim veniam</p>
-            </div>
+<!-- 社長メッセージ -->
+<section id="feature">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2 id="president">社長メッセージ</h2>
+            <p class="lead proposal">「創造・貢献」 この言葉は、私が以前勤めていた会社の社是です。</p>
+        </div>
 
-            <div class="row">
-                <div class="features">
-                    <div class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <img src="images/slider/img1.png" class="img-responsive president">
-                            <div class="president-message">
-                                <h2>勝本社長</h2>
-                                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                            </div>
+        <div class="row">
+            <div class="features">
+                <div class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="feature-wrap">
+                        <img src="images/slider/img1.png" class="img-responsive president">
+                        <div class="president-message">
+
+                            <h3 class="left">
+                                これを見たときに、とても感激したことを今でも覚えています。<br><br>
+
+                                インフォディオは、ソフトウェア開発という分野において、システム・製品・サービスを創造し、お客様のお役に立ちたい、 そして、より広く社会に貢献したいと考えています。
+                                ソフトウェア開発は無限の創造性がある仕事だと思っております。システム開発も「ものづくり」であると考えます。<br><br>
+                                ほとんど何もないところから、アイディアや企画を立て、ソフトウェアという形にしていく。とてもやりがいのある仕事であると考えています。<br>
+                                お客様が期待する以上の成果を目指し、最終的にお客様に満足頂き、喜んでもらえるシステムが完成できたとき、私たち開発者にとって最大の喜びを実感できると考えております。<br>
+                                私たちが持ちうる知識や技術を総動員して、お客様にとって本当に役に立つシステムの開発を目指しています。<br>
+                                また、革新的なシステムやサービスを目指し、広く社会に役だつ製品やサービスの開発にも着手していきます。<br><br>
+                                インフォディオは、ソフトウェアで創造し、社会に貢献したいと考えています。</h3>
+
+                            <h2 class="right">代表取締役 勝本社長</h2>
                         </div>
                     </div>
-                    <!--/.col-md-4-->
                 </div>
-                <!--/.services-->
+                <!--/.col-md-4-->
             </div>
-            <!--/.row-->
+            <!--/.services-->
         </div>
-        <!--/.container-->
-    </section>
-    <!--/#feature-->
+        <!--/.row-->
+    </div>
+    <!--/.container-->
+</section>
+<!--/#feature-->
 
     <!-- 社員紹介 -->
     <section id="services" class="service-item">
@@ -137,7 +157,7 @@
                 <p class="lead">若手社員の紹介だよ！</p>
             </div>
 
-            <div class="row">
+            <div class="row card-row">
                 <div class="col-sm-3 profile-area">
                     <a data-target="#takaModal" data-toggle="modal">
                         <section class="card">
@@ -187,7 +207,7 @@
             </div>
 
             <div class="col-sm-3 profile-area">
-                <a href="#fukaModal" data-toggle="modal">
+                <a data-target="#fukaModal" data-toggle="modal">
                     <section class="card">
                         <img class="card-img" src="images/ori/yama_1.jpg">
                         <div class="card-content">
@@ -312,20 +332,6 @@
                 </div>
             </div>
 
-            <div id="fukazawaModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="myModalLabel">モーダルボックス</h3>
-                </div>
-                <div class="modal-body">
-                    <p>モーダルボックスの中身です。</p>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn" data-dismiss="modal" aria-hidden="true">閉じる</button>
-                    <button class="btn btn-primary">完了</button>
-                </div>
-            </div>
-
             <div id="fukaModal" class="modal info" tabindex="-1">
                 <div class="modal-lg">
                     <div class="modal-content">
@@ -407,24 +413,24 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-3 ">
                     <div class="recent-work-wrap ">
-                        <a class="preview " href="images/portfolio/full/item1.png " rel="prettyPhoto">
-                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                        <a class="preview " href="images/portfolio/full/item2.png " rel="prettyPhoto">
+                            <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-3 ">
                     <div class="recent-work-wrap ">
-                        <a class="preview " href="images/portfolio/full/item1.png " rel="prettyPhoto">
-                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                        <a class="preview " href="images/portfolio/full/item3.png " rel="prettyPhoto">
+                            <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto">
-                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                        <a class="preview " href="images/portfolio/full/item4.png " rel="prettyPhoto">
+                            <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -433,32 +439,32 @@
             <div class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms">
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto">
-                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                        <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto">
+                            <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto">
-                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                        <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto">
+                            <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto">
-                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                        <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto">
+                            <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
-                        <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto">
-                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                        <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto">
+                            <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
                         </a>
                     </div>
                 </div>
