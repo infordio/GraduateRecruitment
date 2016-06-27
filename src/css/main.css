@@ -2671,3 +2671,24 @@ shortcodes page css
 .card-link a:hover {
   color: #0090aa;
 }
+
+#takaModal, #sekiModal, #fukuModal, #fukaModal {
+  width: 50%;
+  left: 25%;
+  margin-left: 0px;
+}
+
+.description {
+  margin-top: 30px;
+  float: left;
+}
+
+.topic {
+  font-weight: bold;
+  font-size: 20px;
+  color: #4e4e4e;
+}
+
+.name {
+  font-size: 27px;
+}
