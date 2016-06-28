@@ -524,6 +524,101 @@ input.search-form:hover {
   animation: fadeInUp 300ms linear 1200ms both;
 }
 
+#scene {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+#scene > li {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.back {
+  margin: 0;
+  width:100px;
+}
+
+.sun{
+  margin: 0% 0 0 0%;
+  position: absolute;
+}
+
+
+.rock{
+  margin: 0% 0 0 -50%;
+  background-blend-mode: screen;
+  width: 100%;
+}
+
+.rock3{
+  margin: 0% 0 0 -30%;
+  background-blend-mode: screen;
+  width: 100%;
+}
+
+
+.kondol{
+  margin: 30% 0 0 -10%;
+  width: 100%;
+}
+
+.kyo{
+  margin: 30% 0 0 90%;
+  position: absolute;
+  width: 100%;
+}
+
+.rock2{
+  margin: 0% 0 0 110%;
+  position: absolute;
+  width: 100%;
+}
+
+.rock4{
+  margin: 0% 0 0 90%;
+  position: absolute;
+  width: 100%;
+}
+
+.jimen{
+  margin: 80% 0 0 -50%;
+  width:200%;
+  position: absolute;
+}
+
+.man1 {
+  margin: 42% 0 0 10%;
+}
+
+.man2 {
+  margin: 45% 0 0 30%;
+}
+
+.man3 {
+  margin: 45% 0 0 50%;
+}
+
+.man4 {
+  margin: 42% 0 0 70%;
+}
+
+.title {
+  /* タイトル */
+  font-size: 400%;
+  font-style: normal;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  margin: 15% 0 0 10%;
+  text-align: center;
+  width: 100%;
+}
+
 /******************************************************************
   社長メッセージ
 *******************************************************************/
