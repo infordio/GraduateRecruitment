@@ -12,12 +12,12 @@ table.brwsr2 {
 table.brwsr2 th {
     vertical-align: middle;
     height: 53px;
-    width: 124px;
+    width: 20%;
     border-right: solid 1px #666;
     margin: 0;
     text-align: center;
     color: #333;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -25,14 +25,14 @@ table.brwsr2 td.data {
     padding: 0;
     margin: 0;
     height: 53px;
-    width: 70%;
+    width: 80%;
     border: none;
     color: #666;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 16px;
     text-align: left;
     vertical-align: middle;
-    white-space: nowrap;
+    white-space: normal;
     overflow: hidden;
     padding-left: 20px;
 }
