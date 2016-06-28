@@ -301,3 +301,42 @@
 
 }
 
+
+/****************************************************************************
+  追加
+*****************************************************************************/
+@media (max-width: 1024px) {
+  .feature-wrap {
+    margin: 0 5%;
+  }
+
+  .feature-wrap img {
+    width: 50%;
+    min-width: 190px;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar-brand {
+    line-height: 20px !important;
+  }
+
+  .feature-wrap {
+    margin: 0 5%;
+  }
+
+  .feature-wrap img {
+    width: 50%;
+    min-width: 190px;
+  }
+
+  .companylogo {
+    width: 80%;
+  }
+
+  .companylabel {
+    width: 30%;
+    margin-right: 5%;
+    padding: 0;
+  }
+}

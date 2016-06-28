@@ -2853,10 +2853,24 @@ shortcodes page css
   margin: 0 auto;
 }
 
+.companylogo {
+  padding-bottom: 8px;
+}
+
+.companylabel {
+  /*float: right;*/
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.navbar-toggle {
+  background: #333;
+}
+
 /****************************************************************************
   レスポンシブ対応
 *****************************************************************************/
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .center {
     padding-bottom: 15px;
   }
