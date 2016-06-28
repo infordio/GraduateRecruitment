@@ -2551,12 +2551,19 @@ shortcodes page css
   border-top:1px white solid;
 }
 
-.president {
+.president-img {
   float: left;
 }
 
 .president-message {
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+em {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /****************************************************************************
@@ -2881,28 +2888,29 @@ shortcodes page css
 ******************************************************************************/
 
 table.select-flow {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     border-collapse: separate;
-    border-spacing: 0px 15px;
-    font-size: 12px;
+    border-spacing: 0px 50px;
+    font-size: 15px;
 }
 
 table.select-flow th,
 table.select-flow td {
     padding: 10px;
+    font-size: 15px;
 }
 
 table.select-flow th {
     background: #295890;
     vertical-align: middle;
-    text-align: left;
-    width: 35px;
+    text-align: center;
+    width: 25%;
     overflow: visible;
     position: relative;
     color: #fff;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 table.select-flow th:after {
@@ -2939,6 +2947,8 @@ table.select-flow th:after {
 
 table.select-flow td {
     background: #f8f8f8;
-    width: 360px;
+    width: 75%;
     padding-left: 20px;
+    text-align: center;
 }
+
