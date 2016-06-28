@@ -58,7 +58,7 @@ table.brwsr2 td.bar {
 @media (max-width: 1024px) {
     #recruit-table {
         width: 90%;
-        left: 5%;
+        margin: 0 auto;
     }
 
     table.brwsr2 {

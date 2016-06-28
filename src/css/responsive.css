@@ -310,9 +310,10 @@
     margin: 0 5%;
   }
 
-  .feature-wrap img {
-    width: 50%;
+  .president-img {
+    width: 100%;
     min-width: 190px;
+    float: none;
   }
 }
 
@@ -353,6 +354,37 @@
     width: 100%!important;
   }
 
+  .president-img {
+    display: none;
+  }
 
+  p.proposal, .stress {
+    font-size: 20px!important;
+  }
+
+  .center h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .president-img {
+    display: none;
+  }
+
+  table.select-flow td, table.select-flow th {
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+
+  table.select-flow th:after {
+    display: none;
+  }
+
+  table.select-flow, table.brwsr2 {
+    width: 100%!important;
+  }
 
 }

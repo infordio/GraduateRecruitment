@@ -2914,6 +2914,7 @@ table.select-flow th {
     color: #fff;
     font-weight: normal;
     font-size: 18px;
+    white-space: nowrap;
 }
 
 table.select-flow th:after {
