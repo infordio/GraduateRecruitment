@@ -642,7 +642,7 @@ input.search-form:hover {
   height: 100%;
   opacity: 0;
   border-radius: 0;
-  background: #428bca;
+  background: rgba(51,51,51,.8);
   color: #fff;
   vertical-align: middle;
   -webkit-transition: opacity 500ms;
@@ -2717,16 +2717,16 @@ shortcodes page css
 }
 
 .card:hover {
-  box-shadow: rgba(0, 0, 0, 0.247059) 0px 14px 45px, rgba(0, 0, 0, 0.219608) 0px 10px 18px;
+  box-shadow: rgba(0, 0, 0, 0.247059) 0 14px 45px, rgba(0, 0, 0, 0.219608) 0 10px 18px;
 }
 
 .card-img {
   border-radius: 5px 5px 0 0;
   max-width: 220px;
-  height: 220px;
+  height: auto;
   width: 100%;
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .card-content {
   /*padding: 20px;*/
@@ -2785,19 +2785,16 @@ shortcodes page css
 
 .entry-button {
   display: inline-block;
-  width: 400px;
+  width: 90%;
   height: 54px;
-  text-align: center;
   text-decoration: none;
   line-height: 54px;
-  outline: none;
   position: relative;
   z-index: 2;
-  color: #1e00ff;
+  color: #4698EA;
   background-color: #fff;
-  border: 2px solid #1e00ff;
+  border: 2px solid #4698EA;
   line-height: 50px;
-  overflow: hidden;
   border-radius: 5px;
 }
 .entry-button::before,
@@ -2830,7 +2827,7 @@ shortcodes page css
   transform: scale(.5);
 }
 .entry-button:hover::after {
-  background: #1e00ff;
+  background: #4698EA;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
