@@ -2851,6 +2851,10 @@ shortcodes page css
   margin: 0 auto;
 }
 
+.icon-bar {
+  background-color: #fff;
+}
+
 .companylogo {
   padding-bottom: 8px;
 }
