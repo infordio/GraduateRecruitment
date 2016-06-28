@@ -142,9 +142,9 @@ body > section {
 }
 
 
-/*************************
-*******Header******
-**************************/
+/******************************************************************
+  ヘッダー
+*******************************************************************/
 
 #header .search{
   display: inline-block;
@@ -330,10 +330,28 @@ input.search-form:hover {
   padding-bottom: 0;
 }
 
+.icon-bar {
+  background-color: #fff;
+}
 
-/*************************
-*******Home Page******
-**************************/
+.companylogo {
+  padding-bottom: 8px;
+}
+
+.companylabel {
+  /*float: right;*/
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.navbar-toggle {
+  background: #333;
+}
+
+
+/******************************************************************
+  トップ
+*******************************************************************/
 
 
 #main-slider {
@@ -506,6 +524,10 @@ input.search-form:hover {
   animation: fadeInUp 300ms linear 1200ms both;
 }
 
+/******************************************************************
+  社長メッセージ
+*******************************************************************/
+
 #feature {
   background: #f2f2f2;
   padding-bottom: 40px;
@@ -557,73 +579,9 @@ input.search-form:hover {
   border: 3px solid #428bca;
 }
 
-#recent-works .col-xs-12.col-sm-4.col-md-3{
-  padding: 0;
-}
-
-#recent-works{
-  padding-bottom: 70px;
-}
-
-.recent-work-wrap {
-  position: relative;
-}
-
-.recent-work-wrap img{
-  width: 100%;
-}
-
-.recent-work-wrap .recent-work-inner{
-  top: 0;
-  background: transparent;
-  opacity: .8;
-  width: 100%;
-  border-radius: 0;
-  margin-bottom: 0;
-}
-
-.recent-work-wrap .recent-work-inner h3{
-  margin: 10px 0;
-}
-
-.recent-work-wrap .recent-work-inner h3 a{
-  font-size: 24px;
-  color: #fff;
-}
-
-.recent-work-wrap .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  border-radius: 0;
-  background: rgba(51,51,51,.8);
-  color: #fff;
-  vertical-align: middle;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
-  padding: 30px;
-}
-
-.recent-work-wrap .overlay .preview {
-  bottom: 0;
-  display: inline-block;
-  height: 35px;
-  line-height: 35px;
-  border-radius: 0;
-  background: transparent;
-  text-align: center;
-  color: #fff;
-}
-
-.recent-work-wrap:hover .overlay {
-  opacity: 0.9;
-}
-
+/******************************************************************
+  社員紹介
+*******************************************************************/
 #services {
   background: #e8e8e8;
   background-size: cover;
@@ -650,556 +608,8 @@ input.search-form:hover {
   margin-right: 20px;
 }
 
-#middle {
-  background: #f2f2f2;
-}
-
-.nav-tabs>li{
-  margin-bottom: 0px;
-  border-bottom: 1px solid #e6e6e6;
-}
-
-.nav-tabs{
-  border-bottom: transparent;
-  border-right: 1px solid #e6e6e6;
-}
-
-.nav-tabs>li>a {
-  background: #f5f5f5;
-  color: #666;
-  border-radius: 0;
-  border: 0 none;
-  line-height: 24px;
-  margin-right:0;
-  padding: 13px 15px;
-}
-
-.nav-tabs li:last-child{
-  border-bottom: 0 none;
-}
-
-.nav-stacked>li+li{
-  margin-top: 0;
-}
-
-.nav-tabs>li>a:hover{
-  background: #1f1f20;
-  color:#fff;
-}
-
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:hover,
-.nav-tabs>li.active>a:focus {
-  border: 0;
-  color:#fff;
-  background: #1f1f20;
-  position: relative;
-}
-
-.nav-tabs>li.active>a:after {
-  position: absolute;
-  content:  "";
-  width: auto;
-  height: auto;
-  border-style:solid;
-  border-color: transparent transparent transparent #1f1f20;
-  border-width: 25px 22px;
-  right: -44px;
-  top:0;
-}
-
-#partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
-  background-size: cover;
-}
-
-#partner {
-  color: #fff;
-  text-align: center;
-}
-
-#partner h2,
-#partner h3 {
-  color: #fff;
-}
-
-.partners ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.partners ul li{
-  display: inline-block;
-  float: left;
-  width: 20%;
-}
-
-#conatcat-info{
-  padding: 30px 0;
-}
-
-.contact-info i{
-  width: 60px;
-  height: 60px;
-  font-size: 40px;
-  line-height: 60px;
-  color: #fff;
-  background: #000;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.contact-info h2{
-  margin-top: 0;
-  color: #000;
-}
-
-.contact-info{
-  color:#000;
-}
-
-/***********************
-****Service page css****
-***********************/
-
 .services {
   padding: 0;
-}
-
-.get-started {
-  background: none repeat scroll 0 0 #F3F3F3;
-  border-radius: 3px;
-  padding-bottom: 30px;
-  position: relative;
-  margin-bottom: 18px;
-  margin-top: 60px;
-}
-
-.get-started h2 {
-  padding-top: 30px;
-  margin-bottom: 20px;
-}
-
-.request {
-  bottom: -15px;
-  left: 50%;
-  position: absolute;
-  margin-left: -110px;
-}
-
-.request h4 {
-  position: absolute;
-  width: 220px;
-  position:relative;
-}
-
-.request h4 a{
-  background:#428bca;
-  color: #fff;
-  font-size: 14px;
-  font-weight: normal;
-  border-radius: 3px;
-  padding: 5px 15px;
-}
-
-.request h4:after {
-  border-color: #428bca transparent transparent;
-  border-style: solid;
-  border-width: 12px;
-  bottom: -18px;
-  content: "";
-  height: 0;
-  position: absolute;
-  right: 13px;
-  z-index: -99999;
-}
-
-.request h4:before {
-  border-color: #428bca transparent transparent;
-  border-style: solid;
-  border-width: 12px;
-  bottom: -18px;
-  content: "";
-  height: 0;
-  left: 13px;
-  position: absolute;
-  z-index: -99999;
-}
-
-.clients-area {
-  padding: 60px;
-}
-
-.clients-comments {
-  background-image: url("../images/image_bg.png");
-  background-position: center 118px;
-  background-repeat: no-repeat;
-  margin-bottom: 100px;
-}
-
-.clients-comments img {
-  background:#DDDDDD;
-  border: 1px solid #DDDDDD;
-  height: 182px;
-  padding: 3px;
-  width: 182px;
-  transition: all 0.9s ease 0s;
-  -moz-transition: all 0.9s ease 0s;
-  -webkit-transition: all 0.9s ease 0s;
-  -o-transition: all 0.9s ease 0s;
-}
-
-.clients-comments h3 {
-  margin-top: 55px;
-  font-weight: 300;
-  padding: 0 40px;
-}
-
-.clients-comments h4 {
-  font-weight: 300;
-  margin-top: 15px;
-}
-
-
-.clients-comments  h4  span {
-  font-weight: 700;
-  font-style: oblique;
-}
-
-.footer {
-  background: none repeat scroll 0 0 #2E2E2E;
-  border-top: 5px solid #428bca;
-  height: 84px;
-  margin-top: 110px;
-}
-
-.footer_left {
-  padding: 10px;
-}
-
-.text-left {
-  color: #FFFFFF;
-  font-size: 12px;
-  margin-top: 15px;
-}
-
-/*************************
-********* Portfolio CSS ******
-**************************/
-
-#portfolio_page {
-  margin-top: 115px;
-  padding-bottom: 0;
-}
-
-.portfolio-items,
-.portfolio-filter {
-  list-style: none outside none;
-  margin: 0 0 40px 0;
-  padding: 0;
-}
-
-.portfolio-filter > li {
-  display: inline-block;
-}
-
-.portfolio-filter > li a {
-  background: none repeat scroll 0 0 #FFFFFF;
-  font-size: 14px;
-  font-weight: 400;
-  margin-right: 20px;
-  text-transform: uppercase;
-  transition: all 0.9s ease 0s;
-  -moz-transition: all 0.9s ease 0s;
-  -webkit-transition: all 0.9s ease 0s;
-  -o-transition: all 0.9s ease 0s;
-  border: 1px solid #F2F2F2;
-  outline: none;
-  border-radius: 3px;
-}
-
-.portfolio-filter > li a:hover,
-.portfolio-filter > li a.active{
-  color:#fff;
-  background: #428bca;
-  border: 1px solid #428bca;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}
-
-.portfolio-items > li {
-  float: left;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.portfolio-item {
-  margin: 0;
-  padding:0;
-}
-
-/* Start: Recommended Isotope styles */
-/**** Isotope Filtering ****/
-.isotope-item {
-  z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
-}
-
-/**** Isotope CSS3 transitions ****/
-.isotope,
-.isotope .isotope-item {
-  -webkit-transition-duration: 0.8s;
-  -moz-transition-duration: 0.8s;
-  -ms-transition-duration: 0.8s;
-  -o-transition-duration: 0.8s;
-  transition-duration: 0.8s;
-}
-
-.isotope {
-  -webkit-transition-property: height, width;
-  -moz-transition-property: height, width;
-  -ms-transition-property: height, width;
-  -o-transition-property: height, width;
-  transition-property: height, width;
-}
-
-.isotope .isotope-item {
-  -webkit-transition-property: -webkit-transform, opacity;
-  -moz-transition-property: -moz-transform, opacity;
-  -ms-transition-property: -ms-transform, opacity;
-  -o-transition-property: -o-transform, opacity;
-  transition-property: transform, opacity;
-}
-
-/**** disabling Isotope CSS3 transitions ****/
-.isotope.no-transition,
-.isotope.no-transition .isotope-item,
-.isotope .isotope-item.no-transition {
-  -webkit-transition-duration: 0s;
-  -moz-transition-duration: 0s;
-  -ms-transition-duration: 0s;
-  -o-transition-duration: 0s;
-  transition-duration: 0s;
-}
-
-/* End: Recommended Isotope styles */
-/* disable CSS transitions for containers with infinite scrolling*/
-.isotope.infinite-scrolling {
-  -webkit-transition: none;
-  -moz-transition: none;
-  -ms-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-
-/***********************
-********* Footer ******
-************************/
-#bottom {
-  background: #f5f5f5;
-  border-bottom: 5px solid #428bca;
-  font-size: 14px;
-}
-
-#bottom h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  font-size:22px;
-  color: #000;
-}
-
-#bottom ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#bottom ul li {
-  display: block;
-  padding: 5px 0;
-}
-
-#bottom ul li a {
-  color: #808080;
-}
-
-#bottom ul li a:hover {
-  color: #428bca;
-}
-
-#bottom .widget {
-  margin-bottom: 0;
-}
-
-#footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: #fff;
-  background: #2e2e2e;
-}
-
-#footer a {
-  color: #fff;
-}
-
-#footer a:hover {
-  color: #428bca;
-}
-
-#footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#footer ul > li {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-#recruit-table {
-  width: 80%;
-  left: 10%;
-}
-
-
-.table-border {
-  border-top:1px white solid;
-}
-
-.president-img {
-  float: left;
-}
-
-.president-message {
-  text-align: center;
-  width: 90%;
-  margin: 0 auto;
-}
-
-em {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-/****************************************************************************
-  ここから自分で追加したもの
-*****************************************************************************/
-#scene {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-}
-#scene > li {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.back {
-  margin: 0;
-  width:100px;
-
-
-}
-
-
-.pepper {
-  /* ペッパーくん */
-  margin: 50% 0 0 40%;
-}
-
-
-.sun{
-  margin: 0% 0 0 0%;
-  position: absolute;
-}
-
-
-.rock{
-  margin: 0% 0 0 -50%;
-  background-blend-mode: screen;
-  width: 100%;
-}
-
-.rock3{
-  margin: 0% 0 0 -30%;
-  background-blend-mode: screen;
-  width: 100%;
-}
-
-
-.kondol{
-  margin: 30% 0 0 -10%;
-  width: 100%;
-}
-
-.kyo{
-  margin: 30% 0 0 90%;
-  position: absolute;
-  width: 100%;
-}
-
-.rock2{
-  margin: 0% 0 0 110%;
-  position: absolute;
-  width: 100%;
-}
-
-.rock4{
-  margin: 0% 0 0 90%;
-  position: absolute;
-  width: 100%;
-}
-
-.jimen{
-  margin: 80% 0 0 -50%;
-  width:200%;
-  position: absolute;
-}
-
-.man1 {
-  margin: 42% 0 0 10%;
-}
-
-.man2 {
-  margin: 45% 0 0 30%;
-}
-
-.man3 {
-  margin: 45% 0 0 50%;
-}
-
-.man4 {
-  margin: 42% 0 0 70%;
-}
-
-.iqkun {
-  /* IQくん */
-  margin: 2% 0 0 77%;
-}
-
-.title {
-  /* タイトル */
-  font-size: 400%;
-  font-style: normal;
-  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
-  position: absolute;
-  margin: 15% 0 0 10%;
-  text-align: center;
-  width: 100%;
 }
 
 .plofile-img {
@@ -1310,6 +720,203 @@ em {
   font-size: 27px;
 }
 
+/******************************************************************
+  社内風景
+*******************************************************************/
+#recent-works .col-xs-12.col-sm-4.col-md-3{
+  padding: 0;
+}
+
+#recent-works{
+  padding-bottom: 70px;
+}
+
+.recent-work-wrap {
+  position: relative;
+}
+
+.recent-work-wrap img{
+  width: 100%;
+}
+
+.recent-work-wrap .recent-work-inner{
+  top: 0;
+  background: transparent;
+  opacity: .8;
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.recent-work-wrap .recent-work-inner h3{
+  margin: 10px 0;
+}
+
+.recent-work-wrap .recent-work-inner h3 a{
+  font-size: 24px;
+  color: #fff;
+}
+
+.recent-work-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 0;
+  background: rgba(51,51,51,.8);
+  color: #fff;
+  vertical-align: middle;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+  padding: 30px;
+}
+
+.recent-work-wrap .overlay .preview {
+  bottom: 0;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 0;
+  background: transparent;
+  text-align: center;
+  color: #fff;
+}
+
+.recent-work-wrap:hover .overlay {
+  opacity: 0.9;
+}
+
+/******************************************************************************
+  選考フロー
+******************************************************************************/
+
+table.select-flow {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0px 50px;
+  font-size: 15px;
+}
+
+table.select-flow th,
+table.select-flow td {
+  padding: 10px;
+  font-size: 15px;
+}
+
+table.select-flow th {
+  background: #295890;
+  vertical-align: middle;
+  text-align: center;
+  width: 25%;
+  overflow: visible;
+  position: relative;
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+table.select-flow th:after {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: #295890;
+  border-width: 10px;
+  margin-top: -10px;
+}
+/* firefox */
+@-moz-document url-prefix() {
+  table.select-flow th::after {
+    float: right;
+    padding: 0;
+    left: 30px;
+    top: 10px;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: relative;
+    pointer-events: none;
+    border: 10px solid transparent;
+    border-left: #295890 10px solid;
+    margin-top: -10px;
+  }
+}
+
+table.select-flow td {
+  background: #f8f8f8;
+  width: 75%;
+  padding-left: 20px;
+  text-align: center;
+}
+
+/******************************************************************
+  募集要項
+*******************************************************************/
+
+#partner {
+  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+#partner {
+  color: #fff;
+  text-align: center;
+}
+
+#partner h2,
+#partner h3 {
+  color: #fff;
+}
+
+.partners ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.partners ul li{
+  display: inline-block;
+  float: left;
+  width: 20%;
+}
+
+#conatcat-info{
+  padding: 30px 0;
+}
+
+/******************************************************************
+  エントリーボタン
+*******************************************************************/
+.contact-info i{
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contact-info h2{
+  margin-top: 0;
+  color: #000;
+}
+
+.contact-info{
+  color:#000;
+}
+
 .media-body {
   text-align: center;
 }
@@ -1364,38 +971,171 @@ em {
   transform: scale(1);
 }
 
-.card-entry-button {
+/******************************************************************
+  フッター
+*******************************************************************/
+
+.footer {
+  background: none repeat scroll 0 0 #2E2E2E;
+  border-top: 5px solid #428bca;
+  height: 84px;
+  margin-top: 110px;
+}
+
+.footer_left {
+  padding: 10px;
+}
+
+.text-left {
+  color: #FFFFFF;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+#bottom {
+  background: #f5f5f5;
+  border-bottom: 5px solid #428bca;
+  font-size: 14px;
+}
+
+#bottom h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size:22px;
+  color: #000;
+}
+
+#bottom ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#bottom ul li {
+  display: block;
+  padding: 5px 0;
+}
+
+#bottom ul li a {
+  color: #808080;
+}
+
+#bottom ul li a:hover {
+  color: #428bca;
+}
+
+#bottom .widget {
+  margin-bottom: 0;
+}
+
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  background: #2e2e2e;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer a:hover {
+  color: #428bca;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer ul > li {
   display: inline-block;
-  width: 100px;
-  height: 34px;
-  line-height: 30px;
+  margin-left: 15px;
+}
+
+#recruit-table {
+  width: 80%;
+  left: 10%;
+}
+
+
+.table-border {
+  border-top:1px white solid;
+}
+
+.president-img {
+  float: left;
+}
+
+.president-message {
+  text-align: center;
+  width: 90%;
   margin: 0 auto;
 }
 
-.card:hover .card-entry-button {
-  display: inline-block;
-  width: 100px;
-  height: 34px;
-  line-height: 30px;
-  margin: 0 auto;
+em {
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.icon-bar {
-  background-color: #fff;
+/* Start: Recommended Isotope styles */
+/**** Isotope Filtering ****/
+.isotope-item {
+  z-index: 2;
 }
 
-.companylogo {
-  padding-bottom: 8px;
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
 }
 
-.companylabel {
-  /*float: right;*/
-  padding-top: 20px;
-  padding-left: 10px;
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
 }
 
-.navbar-toggle {
-  background: #333;
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
 }
 
 /****************************************************************************
@@ -1407,6 +1147,7 @@ em {
   }
 
 }
+
 
 /******************************************************************************
   選考フロー
@@ -1427,18 +1168,6 @@ table.select-flow td {
 }
 
 table.select-flow th {
-<<<<<<< HEAD
-    background: #295890;
-    vertical-align: middle;
-    text-align: center;
-    width: 25%;
-    overflow: visible;
-    position: relative;
-    color: #fff;
-    font-weight: normal;
-    font-size: 18px;
-    white-space: nowrap;
-=======
   background: #295890;
   vertical-align: middle;
   text-align: center;
@@ -1448,7 +1177,6 @@ table.select-flow th {
   color: #fff;
   font-weight: normal;
   font-size: 18px;
->>>>>>> a585eaa190e5a1c527a9dd504e385875190ab801
 }
 
 table.select-flow th:after {
@@ -1489,4 +1217,3 @@ table.select-flow td {
   padding-left: 20px;
   text-align: center;
 }
-
