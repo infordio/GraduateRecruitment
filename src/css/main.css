@@ -668,14 +668,13 @@ input.search-form:hover {
 }
 
 #services {
-  background: #2D3E52;
-  /*background-color: #cdfffa;*/
+  background: #e8e8e8;
   background-size: cover;
 }
 
 #services .lead,
 #services h2{
-  color: #fff;
+  color: black;
 }
 
 .services-wrap {
@@ -2641,19 +2640,19 @@ shortcodes page css
 }
 
 .man1 {
-  margin: 42% 0 0 0%;
+  margin: 42% 0 0 10%;
 }
 
 .man2 {
-  margin: 45% 0 0 25%;
+  margin: 45% 0 0 30%;
 }
 
 .man3 {
-  margin: 45% 0 0 60%;
+  margin: 45% 0 0 50%;
 }
 
 .man4 {
-  margin: 42% 0 0 80%;
+  margin: 42% 0 0 70%;
 }
 
 .iqkun {
@@ -2708,12 +2707,8 @@ shortcodes page css
   margin-bottom: 10px;
 }
 
-.card-row {
-  background-color: white;
-}
-
 .card {
-  background-color: rgb(238, 238, 238);
+  background-color: white;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
   max-width: 250px;
@@ -2784,9 +2779,13 @@ shortcodes page css
   font-size: 27px;
 }
 
-.button {
+.media-body {
+  text-align: center;
+}
+
+.entry-button {
   display: inline-block;
-  width: 200px;
+  width: 400px;
   height: 54px;
   text-align: center;
   text-decoration: none;
@@ -2794,24 +2793,23 @@ shortcodes page css
   outline: none;
   position: relative;
   z-index: 2;
-  color: #333;
+  color: #1e00ff;
   background-color: #fff;
-  border: 2px solid #333;
+  border: 2px solid #1e00ff;
   line-height: 50px;
   overflow: hidden;
   border-radius: 5px;
-  margin-left: 50%;
 }
-.button::before,
-.button::after {
+.entry-button::before,
+.entry-button::after {
   position: absolute;
   z-index: -1;
   display: block;
   content: '';
 }
-.button,
-.button::before,
-.button::after {
+.entry-button,
+.entry-button::before,
+.entry-button::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -2819,11 +2817,11 @@ shortcodes page css
   transition: all .3s;
 }
 
-.button:hover {
+.entry-button:hover {
   color: #fff;
 }
 
-.button::after {
+.entry-button::after {
   top: 0;
   left: 0;
   width: 100%;
@@ -2831,13 +2829,13 @@ shortcodes page css
   -webkit-transform: scale(.5);
   transform: scale(.5);
 }
-.button:hover::after {
-  background: #333;
+.entry-button:hover::after {
+  background: #1e00ff;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 
-.card-button {
+.card-entry-button {
   display: inline-block;
   width: 100px;
   height: 34px;
@@ -2845,7 +2843,7 @@ shortcodes page css
   margin: 0 auto;
 }
 
-.card:hover .card-button {
+.card:hover .card-entry-button {
   display: inline-block;
   width: 100px;
   height: 34px;
