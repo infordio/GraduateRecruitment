@@ -115,7 +115,7 @@ body > section {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 10000;
+  z-index: 5;
   opacity: 0.9;
 }
 
@@ -803,12 +803,12 @@ input, button, select, textarea {
 #takaModal, #sekiModal, #fukuModal, #fukaModal {
   width: 50%;
   left: 25%;
-  margin-left: 0px;
+  margin-left: 0;
+  z-index: 10;
 }
 
 .description {
-  margin-top: 30px;
-  float: left;
+  margin-top: 45px;
 }
 
 .topic {
@@ -830,6 +830,7 @@ input, button, select, textarea {
 
 #recent-works{
   padding-bottom: 70px;
+  background: #f2f2f2;
 }
 
 .recent-work-wrap {
