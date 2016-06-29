@@ -830,6 +830,7 @@ input, button, select, textarea {
 
 #recent-works{
   padding-bottom: 70px;
+  background: #f2f2f2;
 }
 
 .recent-work-wrap {
