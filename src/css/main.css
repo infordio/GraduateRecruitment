@@ -799,14 +799,6 @@ input, button, select, textarea {
   color: #777;
 }
 
-
-#takaModal, #sekiModal, #fukuModal, #fukaModal {
-  width: 50%;
-  left: 25%;
-  margin-left: 0;
-  z-index: 10;
-}
-
 .description {
   margin-top: 45px;
 }
@@ -820,6 +812,7 @@ input, button, select, textarea {
 .name {
   font-size: 27px;
 }
+
 
 /******************************************************************
   社内風景
