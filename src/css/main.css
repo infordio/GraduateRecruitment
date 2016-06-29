@@ -1255,7 +1255,7 @@ em {
 ******************************************************************************/
 
 table.select-flow {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   border-collapse: separate;
   border-spacing: 0px 50px;
@@ -1278,6 +1278,7 @@ table.select-flow th {
   color: #fff;
   font-weight: normal;
   font-size: 18px;
+  white-space: nowrap;
 }
 
 table.select-flow th:after {
