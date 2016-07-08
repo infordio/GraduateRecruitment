@@ -315,6 +315,39 @@
     min-width: 190px;
     float: none;
   }
+
+  .man1>img, .man2>img, .man3>img, .man4>img {
+    width: auto !important;
+    max-height: 300px !important;
+  }
+
+  .background>img {
+    max-width: 80% !important;
+    height: auto !important;
+  }
+
+  .kondol {
+    max-width: 60% !important;
+  }
+
+  .jimen {
+    margin-top: 500px;
+    width: 250%;
+  }
+
+  .rock {
+    margin-left: -35%;
+  }
+  .rock3 {
+    margin-left: -25%;
+  }
+
+  .rock2 {
+    margin-left: 83%;
+  }
+  .rock4 {
+    margin-left: 75%;
+  }
 }
 
 @media (max-width: 425px) {
@@ -387,4 +420,40 @@
     width: 100%!important;
   }
 
+  .sun {
+
+  }
+
+  .kondol {
+    margin-top: 40%;
+  }
+
+  .kyo {
+    margin-top: 35%;
+  }
+
+  .title {
+    margin-top: 40%;
+  }
+
+  .man1 {
+    margin-top: 68%;
+  }
+  .man2 {
+    margin-top: 70%;
+  }
+  .man3 {
+    margin-top: 70%;
+  }
+  .man4 {
+    margin-top: 68%;
+  }
+
+
+  .rock {
+    margin-left: -58%;
+  }
+  .rock3 {
+    margin-left: -48%;
+  }
 }
