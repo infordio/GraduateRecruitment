@@ -401,6 +401,9 @@
 }
 
 @media (max-width: 600px) {
+  .dot {
+    padding-left: 10px;
+  }
 
   .president-img {
     display: none;
